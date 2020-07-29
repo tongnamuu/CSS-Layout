@@ -11,12 +11,3 @@
   height: 200px;
   margin-bottom: 2px;
 }
-
-.box:nth-child(2) {
-  align-self: center;
-  order: 1;
-}
-
-.box:nth-child(3) {
-  align-self: flex-end;
-}
