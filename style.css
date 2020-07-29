@@ -1,9 +1,8 @@
 .wrapper {
   display: flex;
   height: 1200px;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around; /* move along main axis, horizontal axis */
-  align-items: stretch; /* move along cross axis, vertical axis*/
 }
 
 .box {
@@ -11,4 +10,13 @@
   width: 200px;
   height: 200px;
   margin-bottom: 2px;
+}
+
+.box:nth-child(2) {
+  align-self: center;
+  order: 1;
+}
+
+.box:nth-child(3) {
+  align-self: flex-end;
 }
